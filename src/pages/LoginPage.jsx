@@ -50,7 +50,7 @@ export default function LoginPage() {
           <Text style={styles.signInText}>Log In</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SignUpPage')}>
           <Text style={styles.registerText}>
             Don't have an account yet? <Text style={styles.registerLink}>Register for free</Text>
           </Text>
